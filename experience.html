@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[Votre Nom] / Expérience</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <a href="index.html">[Votre Nom] / PORTFOLIO</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="formation.html">Formation</a></li>
+          <li><a href="experience.html" class="active">Expérience</a></li>
+          <li><a href="#">Compétences</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content-section-blue">
+      <div class="container">
+        <h1 class="page-title">Mes Projets et Expériences</h1>
+
+        <div class="card-full">
+          <div class="tabs">
+            <button class="tab-link active" data-tab="projets">
+              Projets universitaires
+            </button>
+            <button class="tab-link" data-tab="pro">
+              Expérience professionnelle
+            </button>
+          </div>
+
+          <div id="projets" class="tab-content active">
+            <h2 class="tab-title">Projets universitaires</h2>
+
+            <div class="project-grid">
+              <div class="project-card">
+                <h3>SAE 1.02 - RÉSOLUTION DE SUDOKU</h3>
+                <p class="contexte">
+                  L'objectif de ce projet était de coder des méthodes de
+                  résolutions tel que le singleton nu et de tester l'efficacité
+                  notre code...
+                </p>
+                <div class="details">
+                  <div class="outils">
+                    <strong>Outils :</strong>
+                    <span class="tool-logo">C</span>
+                  </div>
+                </div>
+                <a href="#" class="btn-source">Code source et livrables</a>
+              </div>
+
+              <div class="project-card">
+                <h3>SAE 2.03 - Site Web de Recettes</h3>
+                <p class="contexte">
+                  Développement d'un site web dynamique avec PHP et une base de
+                  données MySQL pour gérer et partager des recettes de cuisine.
+                </p>
+                <div class="details">
+                  <div class="outils">
+                    <strong>Outils :</strong>
+                    <span class="tool-logo">HTML</span>
+                    <span class="tool-logo">CSS</span>
+                    <span class="tool-logo">PHP</span>
+                  </div>
+                </div>
+                <a href="#" class="btn-source">Voir le site</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="pro" class="tab-content">
+            <h2 class="tab-title">Expérience professionnelle</h2>
+
+            <div class="project-grid">
+              <div class="project-card">
+                <h3>Stage Développeur Web - Entreprise A</h3>
+                <p class="contexte">
+                  6 semaines de stage. Mission : Intégration de maquettes Figma
+                  en HTML/CSS et optimisation du référencement (SEO) du site
+                  vitrine.
+                </p>
+                <div class="details">
+                  <div class="outils">
+                    <strong>Compétences :</strong>
+                    <span class="tool-logo">Figma</span>
+                    <span class="tool-logo">SEO</span>
+                    <span class="tool-logo">HTML</span>
+                  </div>
+                </div>
+                <a href="#" class="btn-source">Voir le rapport</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
